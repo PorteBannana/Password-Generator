@@ -4,7 +4,7 @@ function New-Password {
     [CmdletBinding()]
     Param
     (
-        [Parameter(Mandatory=$false)][int]$Length=16,
+        [Parameter(Mandatory=$false)][int]$Length=24,
         [Parameter(Mandatory=$false)][int]$Uppercase=2,
         [Parameter(Mandatory=$false)][int]$Digits=2,
         [Parameter(Mandatory=$false)][int]$SpecialCharacters=2,
